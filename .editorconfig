@@ -1,0 +1,16 @@
+root = true                     # 根目录的配置文件，编辑器会由当前目录向上查找，如果找到 `roor = true` 的文件，则不再查找
+
+[*]                             # 匹配根目录下的文件（不递归）
+indent_style = space            # 空格缩进
+indent_size = 2                 # 设置缩进空格
+tab_width = 2                   # 缩进为 tab 时，缩进的宽度
+end_of_line = lf                # 文件换行符是 linux 的 `\n`
+charset = utf-8                 # 文件编码是 utf-8
+trim_trailing_whitespace = true # 不保留行末的空格
+insert_final_newline = true     # 文件末尾添加一个空行
+curly_bracket_next_line = false # 大括号不另起一行
+spaces_around_operators = true  # 运算符两遍都有空格
+indent_brace_style = 1tbs       # 条件语句格式是 1tbs
+spaces_around_brackets = none   # 表示括号和括号之间应有空格：无空格，仅在括号内，仅在括号外或在括号的两侧 （none，inside，outside，both）
+max_line_length = off           # 在指定的字符数后强制换行。off关闭此功能
+quote_type = double             # 设置字符串使用单引号还是双引号
