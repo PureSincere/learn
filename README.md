@@ -88,6 +88,6 @@
 ## checklist
 
 - 修正 package.json 的 version、description
-- 修正 README.md UPDATE.md
+- 修正 README.md CHANGELOG.md
 
 ## 改进
