@@ -8,5 +8,4 @@ class Todo {
 
 const todo = new Todo();
 
-console.log(123);
 console.log(todo);

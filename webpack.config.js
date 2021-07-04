@@ -5,7 +5,7 @@ const package = require("./package.json");
 
 const config = {
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
-  entry: path.resolve(__dirname, "./src/app.jsx"),
+  entry: path.resolve(__dirname, "./src/app.ts"),
   output: {
     filename: "[name][hash].js",
     path: path.resolve(__dirname, "dist")
@@ -26,7 +26,13 @@ const config = {
         exclude: /node_modules/
       },
       {
-        test: /\.(js|jsx)?$/,
+        test: /\.ts?$/,
+        use: ["babel-loader", "ts-loader"],
+        include: /src/,
+        exclude: /node_modules/
+      },
+      {
+        test: /\.(js|ts|jsx)?$/,
         use: [{ loader: "eslint-loader" }],
         include: /src/
       }
