@@ -1,6 +1,6 @@
 /node_modules/*
 .*
-.json
+*.json
 LICENSE
 README.md
 webpack.config.js

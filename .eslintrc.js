@@ -24,7 +24,5 @@ module.exports = {
       version: "detect"
     }
   },
-  rules: {
-    quotes: ["error", "single"]
-  }
+  rules: {}
 };

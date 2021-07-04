@@ -1,11 +1,6 @@
 {
   // 开启预览模式
   "workbench.editor.enablePreview": false,
-  // 设置 vscode 的 eslint 所处理的文件的后缀
-  //配置 ESLint 检查的文件类型
-  "eslint.options": {
-    "configFile": ".eslintrc.js"
-  },
   // 设置 eslint 检查的文件类型
   "eslint.validate": [
     "javascript",
@@ -17,6 +12,5 @@
   "editor.codeActionsOnSave": {
     // 设置 eslint 自动修复可修复的规则
     "source.fixAll.eslint": true
-  },
-  "prettier.useEditorConfig": true
+  }
 }

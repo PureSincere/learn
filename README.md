@@ -20,10 +20,16 @@
     - .prettierignore
 
 - 优先级
-  - 设置 .eslintrc.js 的 extends 的 "plugin:prettier/recommended" 作为最后的继承配置文件高于 eslint 的其它继承配置，但低于 rules 设置的配置。
-  - 设置
+  - 设置 .eslintrc.js 的 extends 的 "plugin:prettier/recommended" 作为最后的继承配置文件使得 prettier 高于 eslint 的其它继承配置，但低于 rules 设置的配置，具体查看 eslint 的相关文档。
+  - 编辑时 .editorconfig 优先级高于 prettier，保存进行格式化时 prettier 优先级高于 .editorconfig。
+
+> 注意：改动 .prettierrc.js 相关配置需要重启 vscode 方可生效。
+
+## checklist
+
+- 修正 package.json 的 version、description
+- 修正 UPDATE.md
 
 ## 改进
 
 - 梳理下完整技术栈
-- 梳理下 pretty、eslint、vscode 自动保存格式化的冲突
