@@ -14,5 +14,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - 新增初始化项目。
 - 完善 eslint、prettier、edictorconfig 的冲突，设置 vscode 的自动格式化功能。
 
-[v0.0.1-beta]: https://github.com/PureSincere/learn/compare/v0.0.1-alpha...HEAD
+[v0.0.1-beta]: https://github.com/PureSincere/learn/compare/v0.0.1-beta...HEAD
 [0.0.1-alpha]: https://github.com/PureSincere/learn/compare/v0.0.1-alpha...v0.0.1-beta
