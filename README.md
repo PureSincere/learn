@@ -87,7 +87,12 @@
 
 ## checklist
 
-- 修正 package.json 的 version、description
-- 修正 README.md CHANGELOG.md
+- 修正 package.json 的 version、description。
+- 修正 README.md CHANGELOG.md。
 
 ## 改进
+
+- 新增单元测试。
+- 新增 sass、stylelint，stylelint 接入 vscode 检测并保存格式化。
+- 新增 eslint 对 html 文件的检测，以及接入 vscode 保存自动格式化。
+- 更换代码仓库到 gitlab，新增 gitlab-ci 流水线 CICD
