@@ -14,21 +14,12 @@ const config = {
     rules: [
       {
         test: /\.(js|jsx)?$/,
-        use: [
-          {
-            loader: "babel-loader",
-            options: {
-              presets: ["es2015", "es2016", "es2017", "stage-0", "react"],
-              plugins: ["transform-decorators-legacy"]
-            }
-          }
-        ],
+        use: ["babel-loader"],
         exclude: /node_modules/
       },
       {
         test: /\.ts?$/,
         use: ["babel-loader", "ts-loader"],
-        include: /src/,
         exclude: /node_modules/
       },
       {
