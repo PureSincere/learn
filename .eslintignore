@@ -3,7 +3,6 @@
 *.json
 *.md
 LICENSE
-README.md
 webpack.config.js
 dist/**
 public/**
