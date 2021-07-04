@@ -5,7 +5,7 @@ const package = require("./package.json");
 
 const config = {
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
-  entry: path.resolve(__dirname, "./src/app.ts"),
+  entry: path.resolve(__dirname, "./src/app.jsx"),
   output: {
     filename: "[name][hash].js",
     path: path.resolve(__dirname, "dist")

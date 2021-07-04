@@ -1,11 +1,14 @@
-import { observable } from "mobx";
+import { observable, computed } from "mobx";
 
-class Todo {
-  id = Math.random();
-  @observable title = "";
-  @observable finished = false;
+export class Todo {
+  id: number = Math.random();
+  @observable title?: string = "";
+  @observable finished?: boolean = false;
 }
 
-const todo = new Todo();
-
-console.log(todo);
+export class TodoList {
+  @observable todos: Todo[] = [];
+  @computed get unfinishedTodoCount(): number {
+    return this.todos.filter(todo => !todo.finished).length;
+  }
+}

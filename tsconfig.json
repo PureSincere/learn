@@ -23,7 +23,7 @@
     "declaration": false, // 生成相应的 .d.ts 文件
     "noUnusedLocals": true, // 报告未使用的本地变量的错误
     "noUnusedParameters": true, // 报告未使用参数的错误
-    "experimentalDecorators": true, // 启用对ES装饰器的实验性支持
+    "experimentalDecorators": true, // 启用对 ES 装饰器的实验性支持
     "incremental": true, // 通过从以前的编译中读取/写入信息到磁盘上的文件来启用增量编译
     "noFallthroughCasesInSwitch": true // 设置为 true 时，将严格校验 switch-case 语法
   },
