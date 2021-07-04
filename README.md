@@ -50,11 +50,38 @@
 
 > 注意：改动 .prettierrc.js 相关配置需要重启 vscode 方可生效。
 
+## 代码打包
+
+- webpack
+  - 说明：代码打包工具。
+  - 配置
+    - webpack.config.js
+
+## javascript 库
+
+- react
+- mobx
+
+## 文档
+
+- README.md：项目概述。
+- CHANGELOG.md：项目更新概述。
+
+## 代码版本控制工具
+
+- git
+  - 说明：版本控制工具。
+  - 配置
+    - .gitignore
+
+## 代码仓库
+
+- github
+  - 说明：代码仓库。
+
 ## checklist
 
 - 修正 package.json 的 version、description
-- 修正 UPDATE.md
+- 修正 README.md UPDATE.md
 
 ## 改进
-
-- 梳理下完整技术栈
