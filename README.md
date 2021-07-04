@@ -79,6 +79,12 @@
 - github
   - 说明：代码仓库。
 
+## 项目
+
+- npm run dev：启动开发环境。
+- npm run build：生成打包文件。
+- eslint:fix：eslint 检测项目代码。
+
 ## checklist
 
 - 修正 package.json 的 version、description
