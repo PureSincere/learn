@@ -6,6 +6,7 @@
     "prepare": "husky install",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js --progress --open",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "eslint": "eslint ./**",
     "eslint:fix": "eslint ./** --fix"
   },
   "author": "sincere",
