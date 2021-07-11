@@ -4,12 +4,15 @@
 
 ### vscode
 
-- Chinese (Simplified) Language Pack for Visual Studio Code
-  - 说明：适用于 VS Code 的中文（简体）语言包。
+- 配置
+  - .vscode
 
-- EditorConfig for VS Code
-- Prettier - Code formatter
-- ESLint
+- 插件
+  - Chinese (Simplified) Language Pack for Visual Studio Code
+    - 说明：适用于 VS Code 的中文（简体）语言包。
+  - EditorConfig for VS Code
+  - Prettier - Code formatter
+  - ESLint
 
 ## 设置浏览器和 Node 版本
 
