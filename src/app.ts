@@ -2,7 +2,7 @@ import { observable } from "mobx";
 
 class Todo {
   id = Math.random();
-  @observable title = "";
+  @observable title = asd;
   @observable finished = false;
 }
 
