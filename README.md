@@ -109,6 +109,7 @@
 
 ## 项目
 
+- npm install：安装依赖。
 - npm run dev：启动开发环境。
 - npm run build：生成打包文件。
 - eslint:fix：eslint 检测项目代码。
