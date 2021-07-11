@@ -122,7 +122,8 @@
 
 ## 改进
 
-- 新增徽标，使用 shields.io 添加 GitHub 项目徽标
+- 设置 husky --fix 提交 commit 时出错修复不允许提交。
+- 新增徽标，使用 shields.io 添加 GitHub 项目徽标。
 - 新增单元测试。
 - 新增 sass、stylelint，stylelint 接入 vscode 检测并保存格式化。
 - 新增 eslint 对 html 文件的检测，以及接入 vscode 保存自动格式化。
