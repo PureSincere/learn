@@ -83,6 +83,8 @@
 - git
   - 说明：版本控制工具。
   - 配置
+    - .git 文件目录（隐藏文件目录）
+      - .git/config：git 项目配置
     - .gitignore
 
 - husky
