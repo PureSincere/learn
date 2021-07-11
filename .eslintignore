@@ -6,3 +6,4 @@ LICENSE
 webpack.config.js
 dist/**
 public/**
+*.js
