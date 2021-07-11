@@ -99,6 +99,7 @@
     - 实践
       - 安装：- npm install --save-dev husky。
       - 生成 husk 配置目录：.husky -  npx husk install。
+      - 设置：package.json "prepare": "husky install"，实现执行 npm install 后自动执行 husky install。
       - 生成 git pre-commit 钩子脚本配置文件：npx husky add .husky/pre-commit。
       - .husky/pre-commit 文件配置脚本：npm run eslint:fix。
 
