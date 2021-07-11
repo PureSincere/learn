@@ -1,5 +1,16 @@
 # 学习项目
 
+## IDE
+
+### vscode
+
+- Chinese (Simplified) Language Pack for Visual Studio Code
+  - 说明：适用于 VS Code 的中文（简体）语言包。
+
+- EditorConfig for VS Code
+- Prettier - Code formatter
+- ESLint
+
 ## 设置浏览器和 Node 版本
 
 - browserslist
@@ -73,6 +84,18 @@
   - 说明：版本控制工具。
   - 配置
     - .gitignore
+
+- husky
+  - 说明：git 钩子处理工具
+  - 配置
+    - .husk
+      - .husk/pre-commit：设置 git pre-commit 的相关脚本。
+  - 注意
+    - 实践
+      - 安装：- npm install --save-dev husky。
+      - 生成 husk 配置目录：.husky -  npx husk install。
+      - 生成 git pre-commit 钩子脚本配置文件：npx husky add .husky/pre-commit。
+      - .husky/pre-commit 文件配置脚本：npm run eslint:fix。
 
 ## 代码仓库
 
